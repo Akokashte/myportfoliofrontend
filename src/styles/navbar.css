@@ -1,0 +1,38 @@
+.navbar {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navlinks {
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0.4rem;
+    background-color: #583ebc;
+    border-radius: 2rem;
+}
+
+.navlinks div {
+    padding: 1rem 1.8rem;
+    border-radius: 1.5rem;
+    color: aliceblue;
+}
+
+.navlinks div:hover{
+    background-color: var(--bg_primary);
+    color: var(--secondary_color);
+    cursor: pointer;
+}
+
+.navlinks .logo {
+    color: var(--bg_secondary);
+    border-radius: 50%;
+    font-size: var(--medium);
+    padding: 0.8rem 0.8rem;
+    background-color: var(--bg_primary);
+}
