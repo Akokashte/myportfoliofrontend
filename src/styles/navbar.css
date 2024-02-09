@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem 0.4rem;
-    background-color: #583ebc;
+    background-color: var(--primary_color);
     border-radius: 2rem;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .navlinks div:hover{
-    background-color: var(--bg_primary);
+    background-color: var(--body_color);
     color: var(--secondary_color);
     cursor: pointer;
 }
@@ -34,5 +34,5 @@
     border-radius: 50%;
     font-size: var(--medium);
     padding: 0.8rem 0.8rem;
-    background-color: var(--bg_primary);
+    background-color: var(--body_color);
 }

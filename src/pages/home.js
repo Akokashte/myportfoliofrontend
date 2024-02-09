@@ -1,12 +1,11 @@
 import React from "react";
 import "../styles/home.styles.css"
+import HeroSection from "../components/HeroSection";
 
 const Home =()=>{
     return(
         <>
-            <div className="ubuntu-light title">
-                Hi this is home
-            </div>
+            <HeroSection />
         </>
     )
 }

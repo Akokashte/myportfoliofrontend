@@ -1,12 +1,14 @@
+@import "~@flaticon/flaticon-uicons/css/all/all"; 
+
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Ubuntu', 'Segoe UI', 'Roboto', 'Oxygen',
     'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 .ubuntu-light {
@@ -33,14 +35,49 @@ body {
   font-style: normal;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn_primary{
+width: 10rem;
+padding: 0.8rem 1.8rem;
+color: white;
+background-color: blue;
+text-transform: capitalize;
+text-align: center;
+border-radius: 0.5rem;
+cursor: pointer;
+}
+
+.btn_secondary{
+width: 10rem;
+max-width: auto;
+padding: 0.8rem 1.8rem;
+color: white;
+background-color: black;
+text-transform: capitalize;
+text-align: center;
+border-radius: 0.5rem;
+cursor: pointer;
+}
+
+
 :root {
+  /* font variables */
   --small: 1rem;
   --medium: 1.2rem;
   --large: 1.6rem;
-  --extra_large: 3.5rem;
-  --background: radial-gradient(circle, hsla(233, 100%, 98%, 1) 0%, hsla(247, 82%, 98%, 1) 100%, hsla(248, 15%, 89%, 1) 100%);
-  --primary_color:#0070ff;
+  --extra_large: 3rem;
+
+  /* background-color variables */
+  --primary_color:#583ebc;
   --secondary_color:black;
   --primary_outline:#6db3ff;
-  --bg_primary:white;
+  --body_color:#ffffff;
+
+  /* text color variables */
+  --text_primary:#583ebc;
 }
