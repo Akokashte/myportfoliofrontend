@@ -1,0 +1,32 @@
+.projects_wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 1.2rem 0;
+}
+
+.projects_inner_wrapper{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 1.2rem;
+    padding: 2rem 0;
+    background-color: var(--primary_color);
+}
+
+.heading{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: var(--large);
+    color: var(--text_light);
+}
+
+.project_card_collection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}

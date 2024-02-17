@@ -65,6 +65,7 @@ cursor: pointer;
 }
 
 
+
 :root {
   /* font variables */
   --small: 1rem;
@@ -80,4 +81,6 @@ cursor: pointer;
 
   /* text color variables */
   --text_primary:#583ebc;
+  --text_light:white;
+  --text_secondary:#443636;
 }
